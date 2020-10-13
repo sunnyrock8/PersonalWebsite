@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="649.04" height="264.081" viewBox="0 0 649.04 264.081">
+  <defs>
+    <style>
+      .cls-1, .cls-3, .cls-4, .cls-5, .cls-6 {
+        fill: #fff;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-6, .cls-7, .cls-8 {
+        stroke: #dbb957;
+      }
+
+      .cls-1, .cls-2, .cls-3, .cls-7, .cls-8 {
+        stroke-width: 2.081px;
+      }
+
+      .cls-1, .cls-5, .cls-8 {
+        fill-rule: evenodd;
+      }
+
+      .cls-2, .cls-7, .cls-8 {
+        fill: none;
+      }
+
+      .cls-6 {
+        stroke-width: 2.342px;
+      }
+
+      .cls-7 {
+        stroke-linecap: square;
+      }
+    </style>
+  </defs>
+  <g id="Website" transform="translate(0 -0.919)">
+    <g id="Group-32" transform="translate(0 3)">
+      <path id="Case" class="cls-1" d="M126.008,38.765a7.279,7.279,0,0,1,7.29-7.283H386.872a7.285,7.285,0,0,1,7.29,7.283V212.307a7.279,7.279,0,0,1-7.29,7.284H133.3a7.285,7.285,0,0,1-7.29-7.284Z"/>
+      <path id="Case-2" data-name="Case" class="cls-1" d="M142.41,50.736a3.128,3.128,0,0,1,3.126-3.124H374.374a3.119,3.119,0,0,1,3.126,3.124V180.042a3.128,3.128,0,0,1-3.126,3.124H145.536a3.119,3.119,0,0,1-3.126-3.124Z"/>
+      <path id="Case-3" data-name="Case" class="cls-1" d="M240.99,219.591h38.451l2.6,33.563H238.394Z"/>
+      <path id="Keyboard" class="cls-1" d="M222.334-253.411v-3.516a3.774,3.774,0,0,1,3.77-3.772h68.222a3.777,3.777,0,0,1,3.77,3.772v3.516a.254.254,0,0,1-.261.257H222.6A.259.259,0,0,1,222.334-253.411Z" transform="translate(0 513.853)"/>
+      <ellipse id="Oval-6" class="cls-2" cx="4.816" cy="4.813" rx="4.816" ry="4.813" transform="translate(255.399 197.996)"/>
+      <rect id="Case-4" data-name="Case" class="cls-3" width="51.547" height="100.949" rx="6.244" transform="translate(101.275 159.75)"/>
+      <path id="Case-5" data-name="Case" class="cls-1" d="M101.275,170.937h51.547v74.75H101.275Z"/>
+      <rect id="Rectangle-11" class="cls-4" width="24.733" height="2.081" rx="1.041" transform="translate(114.812 164.173)"/>
+      <rect id="Rectangle-11-2" data-name="Rectangle-11" class="cls-4" width="5.936" height="5.932" rx="2.966" transform="translate(124.185 250.032)"/>
+      <ellipse id="Oval-6-2" data-name="Oval-6" class="cls-3" cx="3.905" cy="3.903" rx="3.905" ry="3.903" transform="translate(111.949 204.24)"/>
+      <rect id="Rectangle-11-3" data-name="Rectangle-11" class="cls-4" width="18.224" height="2.081" rx="1.041" transform="translate(124.966 201.378)"/>
+      <rect id="Rectangle-11-4" data-name="Rectangle-11" class="cls-4" width="13.017" height="2.081" rx="1.041" transform="translate(124.966 207.102)"/>
+      <rect id="Rectangle-11-5" data-name="Rectangle-11" class="cls-4" width="7.81" height="2.081" rx="1.041" transform="translate(124.966 212.826)"/>
+      <ellipse id="Oval-7" class="cls-3" cx="39.964" cy="39.937" rx="39.964" ry="39.937" transform="translate(34.886 128.789)"/>
+      <rect id="Case-6" data-name="Case" class="cls-3" width="192.654" height="129.309" rx="6.244" transform="translate(319.705 120.463)"/>
+      <path id="Keyboard-2" data-name="Keyboard" class="cls-1" d="M306.426,250.026v5.209a5.468,5.468,0,0,0,5.462,5.464H520.176a5.468,5.468,0,0,0,5.462-5.464v-5.209a.254.254,0,0,0-.259-.254H306.685A.254.254,0,0,0,306.426,250.026Z"/>
+      <path id="Notch" class="cls-1" d="M430.429,249.889H401.27a8.067,8.067,0,0,0,7.538,5.2h14.083A8.066,8.066,0,0,0,430.429,249.889Z"/>
+      <rect id="Screen" class="cls-3" width="175.32" height="105.073" rx="2.081" transform="translate(328.295 132.691)"/>
+      <ellipse id="Oval-3" class="cls-4" cx="1.302" cy="1.301" rx="1.302" ry="1.301" transform="translate(253.056 48.653)"/>
+      <path id="Case-7" data-name="Case" class="cls-1" d="M179.9,11.968H300.178v115.26a7.292,7.292,0,0,1-7.292,7.284H187.191a7.291,7.291,0,0,1-7.292-7.284Z"/>
+      <path id="Case-8" data-name="Case" class="cls-1" d="M179.9,6.238a7.29,7.29,0,0,1,7.292-7.278H292.886a7.284,7.284,0,0,1,7.292,7.278V14.05H179.9Z"/>
+      <ellipse id="Oval-5" class="cls-4" cx="2.343" cy="2.342" rx="2.343" ry="2.342" transform="translate(188.751 4.163)"/>
+      <ellipse id="Oval-5-2" data-name="Oval-5" class="cls-4" cx="2.343" cy="2.342" rx="2.343" ry="2.342" transform="translate(196.561 4.163)"/>
+      <ellipse id="Oval-5-3" data-name="Oval-5" class="cls-4" cx="2.343" cy="2.342" rx="2.343" ry="2.342" transform="translate(204.371 4.163)"/>
+      <rect id="Rectangle-11-6" data-name="Rectangle-11" class="cls-4" width="4.686" height="2.081" rx="1.041" transform="translate(194.478 87.94)"/>
+      <rect id="Rectangle-11-7" data-name="Rectangle-11" class="cls-4" width="4.686" height="2.081" rx="1.041" transform="translate(194.478 35.905)"/>
+      <path id="Rectangle-11-8" data-name="Rectangle-11" class="cls-5" d="M203.329,35.9h7.031a1.041,1.041,0,1,1,0,2.081h-7.031a1.041,1.041,0,1,1,0-2.081Z"/>
+      <path id="Rectangle-11-9" data-name="Rectangle-11" class="cls-5" d="M215.045,35.9h7.03a1.041,1.041,0,1,1,0,2.081h-7.03a1.041,1.041,0,1,1,0-2.081Z"/>
+      <path id="Rectangle-11-10" data-name="Rectangle-11" class="cls-5" d="M226.76,35.9h13.019a1.041,1.041,0,1,1,0,2.081H226.76a1.041,1.041,0,0,1,0-2.081Z"/>
+      <path id="Rectangle-11-11" data-name="Rectangle-11" class="cls-5" d="M244.464,35.9h19.267a1.041,1.041,0,0,1,0,2.081H244.464a1.041,1.041,0,1,1,0-2.081Z"/>
+      <rect id="Rectangle-11-12" data-name="Rectangle-11" class="cls-4" width="4.686" height="2.081" rx="1.041" transform="translate(194.478 46.312)"/>
+      <rect id="Rectangle-11-13" data-name="Rectangle-11" class="cls-4" width="4.686" height="2.081" rx="1.041" transform="translate(194.478 56.719)"/>
+      <rect id="Rectangle-11-14" data-name="Rectangle-11" class="cls-4" width="4.686" height="2.081" rx="1.041" transform="translate(194.478 67.126)"/>
+      <rect id="Rectangle-11-15" data-name="Rectangle-11" class="cls-4" width="4.686" height="2.081" rx="1.041" transform="translate(194.478 77.533)"/>
+      <rect id="Rectangle-11-16" data-name="Rectangle-11" class="cls-4" width="4.686" height="2.081" rx="1.041" transform="translate(194.478 98.348)"/>
+      <rect id="Rectangle-11-17" data-name="Rectangle-11" class="cls-4" width="4.686" height="2.081" rx="1.041" transform="translate(194.478 108.755)"/>
+      <rect id="Rectangle-11-18" data-name="Rectangle-11" class="cls-4" width="18.224" height="2.081" rx="1.041" transform="translate(202.288 46.312)"/>
+      <rect id="Rectangle-11-19" data-name="Rectangle-11" class="cls-4" width="31.242" height="2.081" rx="1.041" transform="translate(223.116 46.312)"/>
+      <rect id="Rectangle-11-20" data-name="Rectangle-11" class="cls-4" width="13.017" height="2.081" rx="1.041" transform="translate(256.961 46.312)"/>
+      <rect id="Rectangle-11-21" data-name="Rectangle-11" class="cls-4" width="13.017" height="2.081" rx="1.041" transform="translate(202.288 56.719)"/>
+      <rect id="Rectangle-11-22" data-name="Rectangle-11" class="cls-4" width="13.017" height="2.081" rx="1.041" transform="translate(217.909 56.719)"/>
+      <rect id="Rectangle-11-23" data-name="Rectangle-11" class="cls-4" width="7.81" height="2.081" rx="1.041" transform="translate(233.53 56.719)"/>
+      <rect id="Rectangle-11-24" data-name="Rectangle-11" class="cls-4" width="26.035" height="2.081" rx="1.041" transform="translate(202.288 67.126)"/>
+      <rect id="Rectangle-11-25" data-name="Rectangle-11" class="cls-4" width="18.224" height="2.081" rx="1.041" transform="translate(230.926 67.126)"/>
+      <rect id="Rectangle-11-26" data-name="Rectangle-11" class="cls-4" width="26.035" height="2.081" rx="1.041" transform="translate(202.288 77.533)"/>
+      <rect id="Rectangle-11-27" data-name="Rectangle-11" class="cls-4" width="33.845" height="2.081" rx="1.041" transform="translate(230.926 77.533)"/>
+      <rect id="Rectangle-11-28" data-name="Rectangle-11" class="cls-4" width="18.224" height="2.081" rx="1.041" transform="translate(202.288 87.94)"/>
+      <rect id="Rectangle-11-29" data-name="Rectangle-11" class="cls-4" width="18.224" height="2.081" rx="1.041" transform="translate(223.116 87.94)"/>
+      <rect id="Rectangle-11-30" data-name="Rectangle-11" class="cls-4" width="10.414" height="2.081" rx="1.041" transform="translate(243.944 87.94)"/>
+      <rect id="Rectangle-11-31" data-name="Rectangle-11" class="cls-4" width="33.845" height="2.081" rx="1.041" transform="translate(202.288 98.348)"/>
+      <rect id="Rectangle-11-32" data-name="Rectangle-11" class="cls-4" width="15.621" height="2.081" rx="1.041" transform="translate(202.288 108.755)"/>
+      <path id="Case-9" data-name="Case" class="cls-1" d="M414.991,93.664H557.659V195.143a7.278,7.278,0,0,1-7.285,7.276h-128.1a7.286,7.286,0,0,1-7.286-7.276Z"/>
+      <path id="Case-10" data-name="Case" class="cls-1" d="M414.991,87.934a7.28,7.28,0,0,1,7.286-7.278h128.1a7.28,7.28,0,0,1,7.285,7.278v7.812H414.991Z"/>
+      <ellipse id="Oval-5-4" data-name="Oval-5" class="cls-4" cx="2.343" cy="2.342" rx="2.343" ry="2.342" transform="translate(423.843 85.859)"/>
+      <ellipse id="Oval-5-5" data-name="Oval-5" class="cls-4" cx="2.343" cy="2.342" rx="2.343" ry="2.342" transform="translate(431.653 85.859)"/>
+      <ellipse id="Oval-5-6" data-name="Oval-5" class="cls-4" cx="2.343" cy="2.342" rx="2.343" ry="2.342" transform="translate(439.463 85.859)"/>
+      <ellipse id="Oval-6-3" data-name="Oval-6" class="cls-6" cx="26.035" cy="26.018" rx="26.035" ry="26.018" transform="translate(477.213 122.024)"/>
+      <path id="Rectangle-12" class="cls-1" d="M500.383,118.9v6.244h6.25V118.9Z"/>
+      <path id="Rectangle-12-2" data-name="Rectangle-12" class="cls-1" d="M500.123,170.937v6.245h6.25v-6.245Z"/>
+      <path id="Rectangle-12-3" data-name="Rectangle-12" class="cls-1" d="M474.089,145.18v6.244h6.249V145.18Z"/>
+      <path id="Rectangle-12-4" data-name="Rectangle-12" class="cls-1" d="M525.9,145.18v6.244h6.25V145.18Z"/>
+      <line id="Line" class="cls-7" y2="19.513" transform="translate(529.282 124.626)"/>
+      <line id="Line-2" data-name="Line" class="cls-7" y2="19.514" transform="translate(529.282 151.944)"/>
+      <ellipse id="Oval-5-7" data-name="Oval-5" class="cls-4" cx="3.124" cy="3.122" rx="3.124" ry="3.122" transform="translate(526.158 120.723)"/>
+      <ellipse id="Oval-5-8" data-name="Oval-5" class="cls-4" cx="3.124" cy="3.122" rx="3.124" ry="3.122" transform="translate(526.158 170.157)"/>
+      <g id="Group-60" transform="translate(439.463 115.519)">
+        <rect id="Rectangle-15" class="cls-3" width="16.143" height="16.131" rx="3.122" transform="translate(1.041 1.041)"/>
+        <rect id="Rectangle-15-2" data-name="Rectangle-15" class="cls-3" width="16.143" height="16.131" rx="3.122" transform="translate(1.041 24.457)"/>
+        <rect id="Rectangle-15-3" data-name="Rectangle-15" class="cls-3" width="16.143" height="16.131" rx="3.122" transform="translate(1.041 47.873)"/>
+      </g>
+      <ellipse id="Oval-8" class="cls-3" cx="15.621" cy="15.611" rx="15.621" ry="15.611" transform="translate(616.758 220.371)"/>
+      <ellipse id="Oval-8-2" data-name="Oval-8" class="cls-3" cx="9.112" cy="9.106" rx="9.112" ry="9.106" transform="translate(623.267 226.876)"/>
+      <ellipse id="Oval-8-3" data-name="Oval-8" class="cls-3" cx="5.207" cy="5.204" rx="5.207" ry="5.204" transform="translate(606.345 207.102)"/>
+      <path id="Rectangle-16" class="cls-1" d="M588.64,211.005a1.041,1.041,0,0,0-1.041,1.041v43.71a5.2,5.2,0,0,0,5.2,5.2H628.72a5.2,5.2,0,0,0,5.2-5.2v-43.71a1.041,1.041,0,0,0-1.041-1.041Z"/>
+      <rect id="Rectangle-16-2" data-name="Rectangle-16" class="cls-3" width="13.539" height="16.651" rx="3.122" transform="translate(609.729 225.055)"/>
+      <line id="Line-2-2" data-name="Line-2" class="cls-7" y2="11.838" transform="translate(616.368 211.395)"/>
+      <path id="Oval-8-4" data-name="Oval-8" class="cls-1" d="M557.92,260.7h15.621a15.621,15.621,0,0,0-31.241,0Z"/>
+      <rect id="Rectangle-11-33" data-name="Rectangle-11" class="cls-4" width="2.083" height="3.382" rx="1.041" transform="translate(556.879 244.568)"/>
+      <path id="Rectangle-17" class="cls-1" d="M16.391,230a15.351,15.351,0,1,0,0,30.7H79.407a1.561,1.561,0,0,0,1.561-1.561v-2.416a2.081,2.081,0,0,0-1.934-2.076c-7.154-.508-10.954-3.651-10.954-9.3s3.8-8.79,10.954-9.3a2.081,2.081,0,0,0,1.934-2.076v-2.416A1.561,1.561,0,0,0,79.407,230Z"/>
+      <path id="Rectangle-19" class="cls-8" d="M80.186,255.3a.456.456,0,0,1-.456.456H16.141a10.408,10.408,0,1,1,0-20.815H79.73a.457.457,0,0,1,.456.456"/>
+      <rect id="Rectangle-18" class="cls-4" width="54.673" height="2.081" rx="1.041" transform="translate(14.059 240.926)"/>
+      <rect id="Rectangle-18-2" data-name="Rectangle-18" class="cls-4" width="54.673" height="2.081" rx="1.041" transform="translate(14.059 247.43)"/>
+      <path id="Shape" class="cls-4" d="M65.127,178.055l-3.833-3.4q-3.054-2.71-6.1-5.427c-.467-.411-.934-.828-1.394-1.24v1.639l3.833-3.4q3.054-2.71,6.1-5.427c.467-.411.933-.828,1.394-1.239a1.16,1.16,0,0,0,0-1.639,1.2,1.2,0,0,0-1.651,0l-3.833,3.4q-3.054,2.71-6.1,5.427c-.467.411-.933.828-1.394,1.239a1.165,1.165,0,0,0,0,1.639l3.833,3.406q3.054,2.711,6.1,5.427c.467.411.933.828,1.394,1.239a1.191,1.191,0,0,0,1.651,0,1.17,1.17,0,0,0,0-1.639Z"/>
+      <path id="Shape-2" data-name="Shape" class="cls-4" d="M84.583,159.554l3.833,3.4q3.054,2.711,6.1,5.427c.467.411.933.828,1.394,1.239v-1.639l-3.833,3.406q-3.054,2.711-6.1,5.426c-.467.412-.933.829-1.394,1.24a1.16,1.16,0,0,0,0,1.639,1.2,1.2,0,0,0,1.651,0l3.833-3.406q3.054-2.711,6.1-5.426c.467-.412.934-.829,1.394-1.24a1.165,1.165,0,0,0,0-1.639l-3.833-3.4q-3.054-2.71-6.1-5.427c-.467-.411-.933-.828-1.394-1.24a1.193,1.193,0,0,0-1.651,0,1.172,1.172,0,0,0,0,1.64Z"/>
+      <path id="Shape-3" data-name="Shape" class="cls-4" d="M70.694,184.876c.35-1.043.694-2.085,1.044-3.134q1.251-3.761,2.5-7.517,1.505-4.535,3.016-9.064l2.608-7.836c.414-1.269.881-2.531,1.266-3.817l.018-.052a1.166,1.166,0,0,0-.817-1.425,1.193,1.193,0,0,0-1.435.811c-.35,1.043-.694,2.085-1.044,3.133q-1.251,3.762-2.5,7.518-1.505,4.535-3.016,9.064l-2.608,7.836c-.414,1.263-.881,2.525-1.266,3.811l-.017.052a1.166,1.166,0,0,0,.817,1.425,1.2,1.2,0,0,0,1.435-.8Z"/>
+    </g>
+  </g>
+</svg>

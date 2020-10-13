@@ -1,0 +1,37 @@
+@font-face {
+    font-family: Leelawadee;
+    src: url(../leelawad.ttf);
+}
+
+.btn,
+.btn:active {
+    padding: 1rem 2rem;
+    background-color: #DBB957;
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 1.5rem;
+    color: #F7F7FF;
+    border: none;
+    outline: none;
+    border-radius: 10rem;
+    transition: all 0.3s;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn:hover {
+    animation: pulsate 0.9s infinite;
+}
+
+@keyframes pulsate {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.05);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}

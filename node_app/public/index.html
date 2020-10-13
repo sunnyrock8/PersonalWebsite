@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet">
+    <title>Aarush Yadav Studios</title>
+    <script src="https://unpkg.com/pts/dist/pts.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+
+<body class="content" style="scroll-snap-type: y mandatory; overflow-x: hidden;" onload="onLoadCallback()">
+    <div class="navigation">
+        <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+        <label for="navi-toggle" class="navigation__button">
+            <span class="navigation__icon">&nbsp;</span>
+        </label>
+
+        <div class="navigation__background">&nbsp;</div>
+
+        <nav class="navigation__nav">
+            <ul class="navigation__list">
+                <li class="navigation__item"><a href="#header" class="navigation__link"><span>01</span>Home</a></li>
+                <li class="navigation__item"><a href="#about" class="navigation__link"><span>02</span>About</a></li>
+                <li class="navigation__item"><a href="#projects" class="navigation__link"><span>03</span>Projects</a>
+                </li>
+                <li class="navigation__item"><a href="mailto:aarush.yadav47@gmail.com?subject=Contact from Website&body=Type your message here..." class="navigation__link"><span>04</span>Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <header class="header" id="header" style="scroll-snap-align: start;">
+        <ul class="header__nav" style="position: fixed; top: 1rem; right: 2rem; z-index: 10000">
+            <li class="header__item active"><a href="#header">Home</a></li>
+            <li class="header__item"><a href="#about">About</a></li>
+            <li class="header__item"><a href="#projects">Projects</a></li>
+            <li class="header__item"><button class="btn"
+                    onclick="window.open('mailto:aarush.yadav47@gmail.com?subject=Contact from Website&body=Type your message here...')">Contact</button>
+            </li>
+        </ul>
+
+        <h1 class="header__heading">Aarush Yadav</h1>
+        <h2 class="header__heading--secondary typewrite" id="heading__role" data-period="2000"
+            data-type='[ "Frontend Developer", "Backend Developer" ]'><span class="wrap"></span></h2>
+        <div class="header__img-container--2">
+            <img src="./Image.png" alt="Profile Image" class="header__img--2">
+        </div>
+        <div class="header__canvas-overlay"></div>
+    </header>
+
+    <div class="content" style="scroll-snap-align: start;">
+        <section class="about" id="about">
+            <div class="about__img-container">
+                <img src="Website.svg" alt="SVG Image" class="about__img">
+            </div>
+            <h2 class="about__heading">Hi, I'm Aarush</h2>
+            <p class="about__text">
+                I am 14 years old and love web development!<br>
+                I have worked on multiple projects for many companies.<br>
+                Apart from developing frontend layouts, I also create the backend structure of websites in NodeJS and
+                PHP.<br>
+            </p>
+        </section>
+        <section class="skills">
+            <div class="skills__side">
+                <img src="./IconFrontend.png" alt="Frontend development icon" class="skills__icon">
+                <p class="skills__heading">Front-end Development</p>
+                <p class="skills__description">
+                    I like to design user interfaces and a whole experience in general.
+                </p>
+                <h3 class="skills__heading-secondary">Langauges Used:</h3>
+                <p class="skills__description">HTML</p>
+                <p class="skills__description">CSS/SCSS</p>
+                <p class="skills__description">Javascript</p>
+                <h3 class="skills__heading-secondary">Tools Used:</h3>
+                <p class="skills__description">Visual Studio Code</p>
+                <p class="skills__description">Google Chrome</p>
+                <p class="skills__description">Firefox</p>
+                <p class="skills__description">NPM</p>
+            </div>
+            <div class="skills__side">
+                <img src="./IconBackend.png" alt="Backend development icon" class="skills__icon">
+                <p class="skills__heading">Back-end Development</p>
+                <p class="skills__description">
+                    I like to structure the server-side working of applications, and bring them to life.
+                </p>
+                <h3 class="skills__heading-secondary">Langauges Used:</h3>
+                <p class="skills__description">NodeJS</p>
+                <p class="skills__description">PHP</p>
+                <h3 class="skills__heading-secondary">Tools Used:</h3>
+                <p class="skills__description">Visual Studio Code</p>
+                <p class="skills__description">NPM</p>
+                <p class="skills__description">PHPMyAdmin</p>
+                <p class="skills__description">MongoDB Compass</p>
+                <p class="skills__description">Postman</p>
+            </div>
+        </section>
+
+        <h2 class="heading-secondary u-margin-bottom-small"
+            style="display: block; text-align: center; margin-top: 5rem;">My Projects</h2>
+        <section class="portfolio" id="projects">
+            <img src="./CoordinationScreenshot.PNG" alt="" class="portfolio__img" data-link="https://coordination.co.in"
+                data-imgs="CoordinationScreenshot.png,CoordinationScreenshot2.png,CoordinationScreenshot3.png"
+                data-content="We're headquartered in Mumbai, providing supply chain, logistics management and distribution channel, spread over the states of Bihar, Jharkhand, West Bengal, Maharashtra and Odisha and expanding rapidly nationally."
+                data-heading="Coordination Group">
+            <img src="./GreenSatScreenshot.PNG" alt="" class="portfolio__img" data-link="https://greensat.in"
+                data-imgs="GreenSatScreenshot.png,GreenSatScreenshot2.png,GreenSatScreenshot3.png"
+                data-content='We at GreenSat have a vision of unlocking the value of natural resources like Water, agriculture , minerals , energy and its support systems like banking and finance and commodity market  by relentless innovation. In the same journey our new initiative GreenSat was conceived, we want to go a step ahead and use satellite imagery and precision AI tools like neural network algorithms to integrate our earth observation data for the benefit of optimum use of natural resources and its support systems .'
+                data-heading="GreenSat Innovation Labs">
+            <img src="./ReclaimedScreenshot.PNG" alt="" class="portfolio__img portfolio__img--full-width"
+                data-link="https://reclaimednaturalwater.in"
+                data-imgs="ReclaimedScreenshot.png,ReclaimedScreenshot2.png,ReclaimedScreenshot3.png" data-content='India’s first Company to initiate recycled water trading and promote use of reclaimed Water to save
+                fresh Water.' data-heading="Reclaimed Natural Water">
+        </section>
+        <footer class="footer">
+            <img src="./Image2.png" alt="Footer Image" class="footer__img">
+            <h2 class="footer__heading">Aarush Yadav</h2>
+            <h3 class="footer__tagline">Innovative Development</h3>
+            <p class="footer__copyright">©</p>
+        </footer>
+    </div>
+
+    <script>
+        setTimeout(function () {
+            document.getElementById("heading__role").innerHTML = "Backend";
+        }, 4500)
+    </script>
+    <script>
+        function onLoadCallback() {
+            console.log('On Load Called!')
+            if (window.location.hash === "popup") { window.location.hash = "projects" }
+        }
+    </script>
+    <script>
+        document.querySelector('.footer__copyright').innerHTML += " " + new Date().getFullYear() + " by Aarush Yadav.";
+    </script>
+    <script>
+        function is_touch_enabled() {
+            return ('ontouchstart' in window) ||
+                (navigator.maxTouchPoints > 0) ||
+                (navigator.msMaxTouchPoints > 0);
+        }
+        if (is_touch_enabled()) {
+            console.log("Device is touch enabled!");
+        }
+        else {
+            var canvasOverlay = document.querySelector('.header__canvas-overlay');
+            canvasOverlay.parentNode.removeChild(canvasOverlay);
+        }
+    </script>
+    <script>
+        var navItems = document.getElementsByClassName('navigation__item');
+        for (var a = 0; a < navItems.length; a++) {
+            navItems[a].addEventListener('click', function () {
+                document.querySelector('#navi-toggle').checked = false;
+            });
+        }
+    </script>
+    <script>
+        var imgs = document.getElementsByClassName('portfolio__img');
+        for (var i = 0; i < imgs.length; i++) {
+            imgs[i].addEventListener('click', function () {
+                // const popupImgs = document.getElementsByClassName('popup__img');
+                // for (var j = 0; j < popupImgs.length; j++) {
+                //     popupImgs[j].src = `./${this.dataset.imgs.split(",")[j]}`;
+                // }
+                // document.querySelector('.popup__text').innerHTML = this.dataset.content;
+                // if (this.dataset.content.length < 300) {
+                //     const popupText = document.querySelector('.popup__text');
+                //     popupText.style.columnCount = 1;
+                //     popupText.style.columnGap = 0;
+                //     popupText.style.columnRole = 'none';
+                //     popupText.style.textAlign = 'justify';
+                // }
+                // document.querySelector('#popup__cta').href = this.dataset.link;
+                // document.querySelector('#popup__cta').target = '_blank';
+                // document.querySelector('#popup__heading').innerHTML = this.dataset.heading;
+                // var projectLink = this.dataset.link;
+                // window.location.hash = 'popup';
+                window.open(this.dataset.link);
+            });
+        }
+    </script>
+    <script>
+        var TxtType = function (el, toRotate, period) {
+            this.toRotate = toRotate;
+            this.el = el;
+            this.loopNum = 0;
+            this.period = parseInt(period, 10) || 2000;
+            this.txt = '';
+            this.tick();
+            this.isDeleting = false;
+        };
+
+        TxtType.prototype.tick = function () {
+            var i = this.loopNum % this.toRotate.length;
+            var fullTxt = this.toRotate[i];
+
+            if (this.isDeleting) {
+                this.txt = fullTxt.substring(0, this.txt.length - 1);
+            } else {
+                this.txt = fullTxt.substring(0, this.txt.length + 1);
+            }
+
+            this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
+
+            var that = this;
+            var delta = 200 - Math.random() * 100;
+
+            if (this.isDeleting) { delta /= 2; }
+
+            if (!this.isDeleting && this.txt === fullTxt) {
+                delta = this.period;
+                this.isDeleting = true;
+            } else if (this.isDeleting && this.txt === '') {
+                this.isDeleting = false;
+                this.loopNum++;
+                delta = 500;
+            }
+
+            setTimeout(function () {
+                that.tick();
+            }, delta);
+        };
+
+        window.onload = function () {
+            var elements = document.getElementsByClassName('typewrite');
+            for (var i = 0; i < elements.length; i++) {
+                var toRotate = elements[i].getAttribute('data-type');
+                var period = elements[i].getAttribute('data-period');
+                if (toRotate) {
+                    new TxtType(elements[i], JSON.parse(toRotate), period);
+                }
+            }
+            // INJECT CSS
+            var css = document.createElement("style");
+            css.type = "text/css";
+            css.innerHTML = ".typewrite > .wrap { border-right: 0.08em solid #fff}";
+            document.body.appendChild(css);
+        };
+    </script>
+    <script>
+        // Source code licensed under Apache License 2.0. 
+        // Copyright © 2017 William Ngan. (https://github.com/williamngan/pts)
+
+        window.demoDescription = "Nearest point demo in Op guide.";
+
+        //// Demo code starts (anonymous function wrapper is optional) ---
+
+        (function () {
+
+            let run = Pts.quickStart("#header", "#fff");
+            let pts;
+
+            run((time, ftime) => {
+                // would be better to init this in player's `start` function, but we are lazy here.
+                if (!pts) pts = Create.distributeRandom(space.innerBound, 50);
+
+                let t = space.pointer;
+                pts.sort((a, b) => a.$subtract(t).magnitudeSq() - b.$subtract(t).magnitudeSq());
+
+                form.fillOnly("#123").points(pts, 2, "circle");
+                form.fill("#DBB957").point(pts[0], 10, "circle");
+                form.strokeOnly("#DBB957", 2).line([pts[0], space.pointer]);
+            });
+
+            //// ----  
+
+            space.bindMouse().bindTouch().play();
+
+        })();
+    </script>
+    <script>
+        $('#header_canvas').allowTouchScrolling = true;
+    </script>
+    <div class="popup" id="popup">
+        <div class="popup__content">
+            <div class="popup__left">
+                <img src="./ReclaimedScreenshot.PNG" alt="Tour photo" class="popup__img">
+                <img src="./ReclaimedScreenshot2.PNG" alt="Tour photo" class="popup__img">
+                <img src="./ReclaimedScreenshot3.PNG" alt="Tour photo" class="popup__img">
+            </div>
+            <div class="popup__right">
+                <a href="#projects" class="popup__close">&times;</a>
+                <h2 class="heading-secondary u-margin-bottom-small" id="popup__heading">Reclaimed Natural Water</h2>
+                <p class="popup__text">
+                    India’s first Company to initiate recycled water trading and promote use of reclaimed Water to save
+                    fresh Water.
+                </p>
+                <a href="#" class="btn" id="popup__cta">Visit Now</a>
+            </div>
+        </div>
+    </div>
+    <form name="refreshForm">
+        <input type="hidden" name="visited" value="" />
+    </form>
+</body>
+
+</html>

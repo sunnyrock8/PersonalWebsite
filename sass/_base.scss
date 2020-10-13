@@ -1,0 +1,31 @@
+$color-primary: #DBB957;
+$color-secondary: #F7F7FF;
+$color-grey-dark: #393D3F;
+
+$font-body: 'Source Code Pro', monospace;
+$font-headings: 'IBM Plex Mono', monospace;
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 62.5%; // 1 rem = 10px
+    scroll-behavior: smooth;
+
+    @media only screen and(max-width: 28.125em) {
+        font-size: 50%;
+    }
+}
+
+body {
+    font-family: 'Source Code Pro', monospace;
+    color: #393D3F;
+    font-weight: 300;
+    line-height: 1.6;
+}

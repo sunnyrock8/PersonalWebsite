@@ -1,0 +1,64 @@
+.skills {
+  background-color: #fff;
+  width: 70%;
+  padding: 4rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  grid-template-rows: min-content;
+  margin: 0 auto;
+  margin-top: -3rem;
+  border-radius: 1.2rem;
+  box-shadow: 10px 10px 54px 0px rgba(0, 0, 0, 0.062);
+  transition: all 0.4s;
+
+  @media only screen and (max-width: 31.25em) {
+    grid-gap: 2.5rem;
+  }
+
+  @media only screen and (max-width: 25em) {
+    width: 90%;
+  }
+
+  &__side {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: 0 auto;
+  }
+
+  &__icon {
+    height: 10rem;
+    width: 10rem;
+  }
+
+  &__heading {
+    font-size: 1.7rem;
+    font-family: Leelawadee UI;
+    font-weight: 900;
+    margin-top: 0.5rem;
+    &-secondary {
+      color: #DBB957;
+      font-family: Leelawadee UI;
+      font-weight: 400;
+      font-family: 1.4rem;
+      margin-top: 1rem;
+    }
+
+    @media only screen and (max-width: 25em) {
+      font-size: 1.9rem;
+    }
+  }
+
+  &__description {
+    font-size: 1.4rem;
+    font-family: Leelawadee UI;
+    text-align: center;
+    @media only screen and (max-width: 25em) {
+      font-size: 1.6rem;
+    }
+  }
+
+  &:hover {
+    transform: translateY(-1rem);
+  }
+}
