@@ -1,35 +1,39 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import SwipeableViews from 'react-swipeable-views';
+import { autoPlay } from 'react-swipeable-views-utils';
 
 import Slide from './Slide';
 
-const StyledDiv = styled.div`
-  display: flex;
-  align-items: center;
+const AutoplayingSwipeableViews = autoPlay(SwipeableViews);
 
-  position: relative;
-  height: 40rem;
-  width: 100%;
-  overflow-x: hidden;
+// const StyledDiv = styled.div`
+//   display: flex;
+//   align-items: center;
 
-  & .Slide {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transition: transform 1s;
-    transform: translateY(-50%);
+//   position: relative;
+//   height: 40rem;
+//   width: 100%;
+//   overflow-x: hidden;
 
-    margin-left: 4rem;
+//   & .Slide {
+//     position: absolute;
+//     top: 50%;
+//     left: 0;
+//     transition: transform 1s;
+//     transform: translateY(-50%);
 
-    @media only screen and (max-width: 56.25em) {
-      margin-left: 0;
-    }
+//     margin-left: 4rem;
 
-    &:not(:last-child) {
-      margin-right: 2.7rem;
-    }
-  }
-`;
+//     @media only screen and (max-width: 56.25em) {
+//       margin-left: 0;
+//     }
+
+//     &:not(:last-child) {
+//       margin-right: 2.7rem;
+//     }
+//   }
+// `;
 
 class Carousel extends Component {
   constructor(props) {
@@ -47,7 +51,7 @@ class Carousel extends Component {
     this.nextSlide = this.nextSlide.bind(this);
     this.changeSlideCallback = this.changeSlideCallback.bind(this);
 
-    this.changeSlide = setInterval(this.changeSlideCallback, 2500);
+    // this.changeSlide = setInterval(this.changeSlideCallback, 2500);
 
     document.addEventListener('keydown', (e) => {
       if (e.key === 'ArrowLeft') {
@@ -85,7 +89,7 @@ class Carousel extends Component {
     this.setState({
       curSlide: i,
     });
-    this.changeSlide = setInterval(this.changeSlideCallback, 2500);
+    // this.changeSlide = setInterval(this.changeSlideCallback, 2500);
   }
 
   previousSlide() {
@@ -103,20 +107,29 @@ class Carousel extends Component {
   render() {
     const transforms = this.getTransforms();
     return (
-      <StyledDiv {...this.props}>
+      <AutoplayingSwipeableViews
+        containerStyle={{
+          width: '33.2rem',
+        }}
+        index={this.state.curSlide}
+        springConfig={{
+          duration: '0.75s',
+          easeFunction: 'ease-in-out',
+          delay: '0s',
+        }}
+        onChangeIndex={this.setSlide}
+        enableMouseEvents
+      >
         {this.props.slides.map((slide, i) => (
           <Slide
             title={slide.title}
             linkTo={slide.linkTo}
             active={i === this.state.curSlide}
-            style={{
-              transform: `translate(${transforms[i]}%, -50%)`,
-            }}
             onClick={() => this.setSlide(i)}
             key={i}
           />
         ))}
-      </StyledDiv>
+      </AutoplayingSwipeableViews>
     );
   }
 }

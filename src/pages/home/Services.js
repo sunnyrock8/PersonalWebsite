@@ -1,7 +1,8 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
+import SwipeableViews from 'react-swipeable-views';
 
-import Carousel from '../../components/Carousel';
+import Carousel, { Slide } from '../../components/Carousel';
 import Subtitle from '../../components/Subtitle';
 import Text from '../../components/Text';
 
@@ -88,6 +89,9 @@ const StyledDiv = styled.div`
 class Services extends Component {
   constructor(props) {
     super(props);
+    this.state = {
+      curSlide: 0,
+    };
     this.slides = [
       {
         title: 'Frontend Developer',

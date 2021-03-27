@@ -13,6 +13,7 @@ const StyledDiv = styled.div`
   padding: 3.4rem 3.6rem;
   background-color: ${({ active }) =>
     active ? 'var(--color-primary)' : '#F6F6F8'};
+
   /* box-shadow: ${({ active }) =>
     active ? '5px 5px 4.3rem rgba(var(--color-primary-rgb), 0.63)' : 'none'}; */
   cursor: ${({ onClick }) =>
