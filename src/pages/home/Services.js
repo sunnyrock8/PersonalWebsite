@@ -12,6 +12,7 @@ const StyledDiv = styled.div`
 
   background-color: #fafbfd;
   padding: 18.5rem 5.1rem 0 17.6rem;
+  margin-top: 2rem;
 
   @media only screen and (max-width: 61.25em) {
     padding: 5rem 5.1rem;

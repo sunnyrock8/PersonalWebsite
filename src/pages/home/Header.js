@@ -25,7 +25,7 @@ const StyledHeader = styled.header`
 
   @media only screen and (max-width: 56.25em) {
     overflow-x: hidden;
-    overflow-y: visible;
+    overflow-y: hidden;
   }
 
   position: relative;
@@ -122,6 +122,7 @@ const StyledHeader = styled.header`
     @media only screen and (max-width: 56.25em) {
       flex-direction: column-reverse;
       align-items: center;
+      justify-content: flex-start;
       margin-top: 15rem;
     }
 
@@ -208,7 +209,7 @@ const StyledHeader = styled.header`
   }
 
   & .Header-social-bar-mobile {
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: stretch;
     background-color: var(--color-primary);
