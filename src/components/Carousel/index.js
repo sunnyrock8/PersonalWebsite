@@ -43,6 +43,7 @@ class Carousel extends Component {
       curSlide: 0,
       lastSlide: this.props.slides.length - 1,
       transformBias: 0,
+      firstChange: true,
     };
 
     this.getTransforms = this.getTransforms.bind(this);
@@ -88,6 +89,7 @@ class Carousel extends Component {
     clearInterval(this.changeSlide);
     this.setState({
       curSlide: i,
+      firstChange: false,
     });
     // this.changeSlide = setInterval(this.changeSlideCallback, 2500);
   }
@@ -125,6 +127,7 @@ class Carousel extends Component {
             title={slide.title}
             linkTo={slide.linkTo}
             active={i === this.state.curSlide}
+            animation={!this.state.firstChange}
             onClick={() => this.setSlide(i)}
             key={i}
           />
