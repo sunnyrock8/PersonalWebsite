@@ -10,7 +10,7 @@ import NavBar from '../../layout/NavBar';
 
 const StyledHeader = styled.header`
   width: 100vw;
-  height: 100vh;
+  height: fit-content;
   padding: 4.9rem 7.5rem 0 17.6rem;
 
   @media only screen and (max-width: 70.625em) {
@@ -91,6 +91,7 @@ const StyledHeader = styled.header`
   & button {
     margin-top: 12.9rem;
     width: fit-content;
+    margin-bottom: 7rem;
 
     @media only screen and (max-width: 56.25em) {
       margin-top: 6.2rem;
@@ -127,7 +128,7 @@ const StyledHeader = styled.header`
     }
 
     @media only screen and (max-width: 46.25em) {
-      margin-top: 5rem;
+      margin-top: 1rem;
     }
   }
 
@@ -153,20 +154,29 @@ const StyledHeader = styled.header`
 
     @media only screen and (max-width: 56.25em) {
       position: relative;
-      top: default;
-      right: default;
-      width: 30rem;
-      transform: scale(1) translate(12%, -110%);
-      transform-origin: top;
+      top: 5rem;
+      right: 0;
+      margin-bottom: -25rem;
     }
 
-    @media only screen and (max-width: 33.125em) {
-      transform: scale(1) translate(10%, -110%);
+    @media only screen and (max-width: 50em) {
+      width: 70%;
+      margin-bottom: -20rem;
     }
 
-    @media only screen and (max-width: 28.125em) {
-      width: 25rem;
-      transform: scale(1) translate(7%, -130%);
+    @media only screen and (max-width: 46.25em) {
+      top: 15rem;
+      width: 70%;
+      margin-bottom: -10rem;
+    }
+
+    @media only screen and (max-width: 31.25em) {
+      margin-bottom: -5rem;
+      width: 80%;
+    }
+
+    @media only screen and (max-width: 26.25em) {
+      width: 100%;
     }
   }
 
@@ -209,13 +219,18 @@ const StyledHeader = styled.header`
   }
 
   & .Header-social-bar-mobile {
-    display: none;
+    display: flex;
     justify-content: center;
     align-items: stretch;
     background-color: var(--color-primary);
     padding: 1.4rem 7.5rem;
     width: 100vw;
-    transform: translateY(6.4rem);
+    /* transform: translateY(6.4rem); */
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 3;
 
     @media only screen and (min-width: 56.25em) {
       display: none;

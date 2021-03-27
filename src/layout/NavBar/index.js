@@ -41,12 +41,12 @@ const StyledNav = styled.nav`
     }
 
     &:checked ~ .hamburger-nav {
-      transform: scale(1) translate(30%, -30%);
+      transform: scale(1.1) translate(30%, -30%);
     }
   }
 
   & .hamburger-icon {
-    z-index: 2;
+    z-index: 10;
   }
 
   & .hamburger-bg {
@@ -60,6 +60,12 @@ const StyledNav = styled.nav`
     border-radius: 50%;
     background-color: #7562e0;
     padding: 1.5rem 1rem;
+
+    position: fixed;
+    top: 2rem;
+    right: 2rem;
+
+    z-index: 10;
 
     & label {
       position: relative;
@@ -108,7 +114,8 @@ const StyledNav = styled.nav`
     transform: scale(0) translate(30%, -30%);
     transform-origin: 100% 0;
     transition: transform 1s cubic-bezier(0.7, 1.47, 0.42, 0.92);
-    z-index: 1;
+    z-index: 4;
+    padding: 0 0 5rem 5rem;
 
     display: flex;
     flex-direction: column;
