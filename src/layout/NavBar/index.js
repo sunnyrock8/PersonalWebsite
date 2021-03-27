@@ -32,11 +32,11 @@ const StyledNav = styled.nav`
       background-color: rgba(255, 255, 255, 0);
 
       &::before {
-        transform: rotate(45deg);
+        transform: rotate(-45deg);
       }
 
       &::after {
-        transform: rotate(-45deg);
+        transform: rotate(45deg);
       }
     }
 

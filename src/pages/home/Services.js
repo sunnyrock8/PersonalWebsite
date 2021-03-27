@@ -1,8 +1,7 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import SwipeableViews from 'react-swipeable-views';
 
-import Carousel, { Slide } from '../../components/Carousel';
+import Carousel from '../../components/Carousel';
 import Subtitle from '../../components/Subtitle';
 import Text from '../../components/Text';
 
@@ -12,10 +11,18 @@ const StyledDiv = styled.div`
   width: 100vw;
 
   background-color: #fafbfd;
-  padding: 18.5rem 5.1rem 0 17.6rem;
+  padding: 18.5rem 5.1rem 10rem 17.6rem;
+
+  @media only screen and (max-width: 80em) {
+    padding-bottom: 14rem;
+  }
 
   @media only screen and (max-width: 61.25em) {
     padding: 5rem 5.1rem;
+  }
+
+  @media only screen and (max-width: 56.25em) {
+    padding-bottom: 16rem;
   }
 
   @media only screen and (max-width: 56.25em) {
@@ -74,6 +81,8 @@ const StyledDiv = styled.div`
     display: flex;
     flex-direction: column;
     flex-grow: 1;
+
+    position: relative;
   }
 
   & .Services-caption {
@@ -83,6 +92,22 @@ const StyledDiv = styled.div`
 
   & .Services-carousel {
     margin-left: -4rem;
+  }
+
+  & .Services-swiper {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    transform: translateY(60%);
+
+    @media only screen and (max-width: 80em) {
+      transform: translateY(75%);
+    }
+
+    @media only screen and (max-width: 56.25em) {
+      transform: translateY(95%);
+    }
   }
 `;
 
@@ -118,7 +143,9 @@ class Services extends Component {
             <br />
             Experience
             <br />
-            Working
+            Working In
+            <br />
+            Development
           </h3>
         </div>
         <div className="Services-main">
@@ -129,7 +156,7 @@ class Services extends Component {
           <Text className="Services-caption">
             These are the main services I offer.
           </Text>
-          <Carousel slides={this.slides} className="Services-carousel" />
+          <Carousel slides={this.slides} className="Services-swiper" />
         </div>
       </StyledDiv>
     );

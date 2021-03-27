@@ -8,7 +8,7 @@ const StyledImg = styled.img`
 class Logo extends Component {
   render() {
     return (
-      <a href="#">
+      <a href="#header">
         <StyledImg src="/logo.png" {...this.props} />
       </a>
     );

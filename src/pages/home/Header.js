@@ -241,7 +241,7 @@ const StyledHeader = styled.header`
 class Header extends Component {
   render() {
     return (
-      <StyledHeader>
+      <StyledHeader {...this.props}>
         <nav>
           <Logo className="Header-logo" />
           <NavBar />
@@ -264,6 +264,7 @@ class Header extends Component {
               <a
                 href="https://www.google.com/maps/place/Mumbai,+Maharashtra/@19.0821978,72.7410999,11z/data=!3m1!4b1!4m5!3m4!1s0x3be7c6306644edc1:0x5da4ed8f8d648c69!8m2!3d19.0759837!4d72.8776559"
                 target="_blank"
+                rel="noreferrer"
                 className="Header-location-text"
               >
                 Mumbai, India
@@ -274,6 +275,7 @@ class Header extends Component {
               <a
                 href="https://github.com/sunnyrock8"
                 target="_blank"
+                rel="noreferrer"
                 className="Header-social"
               >
                 <img src="/github_icon.svg" alt="Github Icon" />
@@ -281,6 +283,7 @@ class Header extends Component {
               <a
                 href="mailto:aarush@aarushyadav.dev"
                 target="_blank"
+                rel="noreferrer"
                 className="Header-social"
               >
                 <img src="/email_icon.svg" alt="Email Icon" />
@@ -288,6 +291,7 @@ class Header extends Component {
               <a
                 href="tel:+917710000481"
                 target="_blank"
+                rel="noreferrer"
                 className="Header-social"
               >
                 <img src="/phone_icon.svg" alt="Phone Icon" />
@@ -301,6 +305,7 @@ class Header extends Component {
           <a
             href="https://github.com/sunnyrock8"
             target="_blank"
+            rel="noreferrer"
             className="Header-social"
           >
             <img src="/github_icon.svg" alt="Github Icon" />
@@ -308,11 +313,17 @@ class Header extends Component {
           <a
             href="mailto:aarush@aarushyadav.dev"
             target="_blank"
+            rel="noreferrer"
             className="Header-social"
           >
             <img src="/email_icon.svg" alt="Email Icon" />
           </a>
-          <a href="tel:+917710000481" target="_blank" className="Header-social">
+          <a
+            href="tel:+917710000481"
+            target="_blank"
+            rel="noreferrer"
+            className="Header-social"
+          >
             <img src="/phone_icon.svg" alt="Phone Icon" />
           </a>
         </div>

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import styled from 'styled-components';
+// import styled from 'styled-components';
 import SwipeableViews from 'react-swipeable-views';
 import { autoPlay } from 'react-swipeable-views-utils';
 
@@ -105,7 +105,6 @@ class Carousel extends Component {
   }
 
   render() {
-    const transforms = this.getTransforms();
     return (
       <AutoplayingSwipeableViews
         containerStyle={{
@@ -118,6 +117,7 @@ class Carousel extends Component {
           delay: '0s',
         }}
         onChangeIndex={this.setSlide}
+        {...this.props}
         enableMouseEvents
       >
         {this.props.slides.map((slide, i) => (
