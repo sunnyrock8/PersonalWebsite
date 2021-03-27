@@ -25,7 +25,7 @@ const StyledHeader = styled.header`
 
   @media only screen and (max-width: 56.25em) {
     overflow-x: hidden;
-    overflow-y: scroll;
+    overflow-y: visible;
   }
 
   position: relative;

@@ -9,9 +9,7 @@ const StyledDiv = styled.div`
   display: flex;
 
   width: 100vw;
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
+
   background-color: #fafbfd;
   padding: 18.5rem 5.1rem 0 17.6rem;
 

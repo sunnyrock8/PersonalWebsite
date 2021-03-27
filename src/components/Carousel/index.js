@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import styled from 'styled-components';
-import Swipe from 'react-easy-swipe';
 
 import Slide from './Slide';
 
@@ -70,7 +69,6 @@ class Carousel extends Component {
       curTransform += 110 + (this.state.transformBias / 312) * 100;
       transforms.push(curTransform);
     }
-    console.log(transforms);
     return transforms;
   }
 
